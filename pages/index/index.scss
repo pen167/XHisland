@@ -1,0 +1,75 @@
+.box{
+  color:var(--themeColor)
+}
+
+.header{
+  .logo{
+    height: 70rpx;
+    .pic{
+      height: 100%;
+    }
+  }
+  height: 120rpx;
+  border: 1px solid var(--themeColor);
+  padding: 30rpx;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  .titles{
+    height: 120rpx;
+    width: 500rpx;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    .certificate{
+      text-align: center;
+      color: var(--themeColor);
+      .image{
+        height: 60rpx;
+        .pic{
+          height: 100%;
+        }
+      }
+    }
+    .child{
+      text-align: center;
+      color: var(--themeColor);
+      .image{
+        height: 60rpx;
+        .pic{
+          height: 100%;
+        }
+      }
+    }
+    .live_together{
+      text-align: center;
+      color: var(--themeColor);
+      .image{
+        height: 60rpx;
+        .pic{
+          height: 100%;
+        }
+      }
+    }
+    .gender{
+      text-align: center;
+      color: var(--themeColor);
+      .image{
+        height: 60rpx;
+        .pic{
+          height: 100%;
+        }
+      }
+    }
+    .filter{
+      text-align: center;
+      color: var(--themeColor);
+      .image{
+        height: 60rpx;
+        .pic{
+          height: 100%;
+        }
+      }
+    }
+  }
+}
