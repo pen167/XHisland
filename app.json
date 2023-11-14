@@ -10,7 +10,6 @@
     "navigationBarTitleText": "Weixin",
     "navigationBarTextStyle":"black"
   },
-  "style": "v2",
   "sitemapLocation": "sitemap.json",
   "tabBar": {
     "color": "#888888",
@@ -35,5 +34,10 @@
         "selectedIconPath": "static/images/user_selected.png"
       }
     ]
+  },
+  "usingComponents": {
+    "van-loading": "@vant/weapp/loading/index",
+    "van-icon": "@vant/weapp/icon/index",
+    "infoBox": "/components/infoBox/infoBox"
   }
 }

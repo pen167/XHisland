@@ -1,16 +1,17 @@
-.box{
-  color:var(--themeColor)
-}
+// .box{
+//   color:var(--themeColor)
+// }
 
 .header{
   .logo{
+    margin-left: 20rpx;
     height: 70rpx;
     .pic{
       height: 100%;
     }
   }
-  height: 120rpx;
-  border: 1px solid var(--themeColor);
+  height: 100rpx;
+  // border: 1px solid var(--themeColor);
   padding: 30rpx;
   align-items: center;
   display: flex;
@@ -21,55 +22,40 @@
     justify-content: space-between;
     display: flex;
     align-items: center;
-    .certificate{
+    .title{
       text-align: center;
       color: var(--themeColor);
       .image{
-        height: 60rpx;
+        height: 50rpx;
         .pic{
           height: 100%;
         }
+      }
+      .text{
+        font-size: 20rpx;
+        color: var(--themeColor);
       }
     }
-    .child{
-      text-align: center;
-      color: var(--themeColor);
-      .image{
-        height: 60rpx;
-        .pic{
-          height: 100%;
-        }
-      }
+  }
+}
+
+.content{
+  .body{
+    padding: 50rpx 35rpx;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .box{
+      width: 330rpx;
+      margin-bottom: 30rpx;
     }
-    .live_together{
-      text-align: center;
-      color: var(--themeColor);
-      .image{
-        height: 60rpx;
-        .pic{
-          height: 100%;
-        }
-      }
-    }
-    .gender{
-      text-align: center;
-      color: var(--themeColor);
-      .image{
-        height: 60rpx;
-        .pic{
-          height: 100%;
-        }
-      }
-    }
-    .filter{
-      text-align: center;
-      color: var(--themeColor);
-      .image{
-        height: 60rpx;
-        .pic{
-          height: 100%;
-        }
-      }
+  }
+  .loadOut{
+    text-align: center;
+    padding: 30rpx 0;
+    .noData{
+      font-size: 30rpx;
+      color: #888888;
     }
   }
 }

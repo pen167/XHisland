@@ -3,44 +3,78 @@
     <image src="/static/images/logo.png" class="pic" mode="heightFix"/>
   </view>
   <view class="titles">
-    <view class="certificate">
-      <view class="image">
-        <image src="/static/images/certificate.png" class="pic" mode="heightFix"/>
-      </view>
-      领证
+    <view class="title">
+      <picker bindchange="bindCertificateChange" value="{{certificateIndex}}" range="{{certificateArray}}">
+        <view class="image">
+          <image src="/static/images/certificate.png" class="pic" mode="heightFix"/>
+        </view>
+        <view class="picker">
+          <view class="text">
+            {{certificateArray[certificateIndex]}}
+          </view>
+        </view>
+      </picker>
     </view>
     
-    <view class="child">
-      <view class="image">
-        <image src="/static/images/child.png" class="pic" mode="heightFix"/>
-      </view>
-      要孩
+    <view class="title">
+      <picker bindchange="bindChildChange" value="{{childIndex}}" range="{{childArray}}">
+        <view class="image">
+          <image src="/static/images/child.png" class="pic" mode="heightFix"/>
+        </view>
+      <view class="picker">
+          <view class="text">
+            {{childArray[childIndex]}}
+          </view>
+        </view>
+      </picker>
     </view>
 
-    <view class="live_together">
-      <view class="image">
-        <image src="/static/images/live_together.png" class="pic" mode="heightFix"/>
-      </view>
-      同住
+    <view class="title">
+      <picker bindchange="bindLiveChange" value="{{liveIndex}}" range="{{liveArray}}">
+        <view class="image">
+          <image src="/static/images/live.png" class="pic" mode="heightFix"/>
+        </view>
+      <view class="picker">
+          <view class="text">
+            {{liveArray[liveIndex]}}
+          </view>
+        </view>
+      </picker>
     </view>
 
-    <view class="gender">
-      <view class="image">
-        <image src="/static/images/gender.png" class="pic" mode="heightFix"/>
-      </view>
-      性别
+    <view class="title">
+      <picker bindchange="bindGenderChange" value="{{genderIndex}}" range="{{genderArray}}">
+        <view class="image">
+          <image src="/static/images/gender.png" class="pic" mode="heightFix"/>
+        </view>
+      <view class="picker">
+          <view class="text">
+            {{genderArray[genderIndex]}}
+          </view>
+        </view>
+      </picker>
     </view>
 
-    <view class="filter">
+    <view class="title">
       <view class="image">
         <image src="/static/images/filter.png" class="pic" mode="heightFix"/>
       </view>
-      其他
+      <view class="text">
+        其他
+      </view>
     </view>
   </view>
-  
 </view>
 
-<view class="box">
-  <infoBlock></infoBlock>
+<view class="content">
+  <view class="body">
+    <view class="box" wx:for="{{4}}">
+      <infoBox></infoBox>
+      <!-- <infoBox gender='boy'></infoBox> -->
+    </view>
+  </view>
+  <view class="loadOut">
+    <van-loading size="24px">加载中...</van-loading>
+    <view class="noData">没有更多数据了~</view>
+  </view>
 </view>

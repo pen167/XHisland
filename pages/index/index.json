@@ -1,5 +1,3 @@
 {
-  "usingComponents": {
-    "infoBlock": "/components/infoBlock/infoBlock"
-  }
+  "usingComponents": {}
 }

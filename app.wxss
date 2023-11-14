@@ -2,10 +2,15 @@ view,text{
   box-sizing: border-box;
 }
 page {
+  background: var(--backgroundColor);
   --themeColor: #888888;
+  --boxColor: #f0f0f0;
+  --backgroundColor: #fafafa;
+  --girlColor: #e9e4e0;
+  --girlTagColor: #dad2cf;
+  --boyColor: #dfe3ee;
+  --boyTagColor: #d0d5df;
   --globalColor: #1a1b1c;
-  --focusColor: #4c4d4e;
-  --descColor: #7e8081;
   --greyColor:#8e8e8e;
   --subColor: #b1b2b3;
   --lightColor:#e4e4e4;

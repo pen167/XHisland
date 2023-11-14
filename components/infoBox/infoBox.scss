@@ -1,0 +1,70 @@
+.box{
+  display: flex;
+  flex-direction: column;
+  background: var(--boxColor);
+  border-radius: 10px;
+  .intro{
+    display: inline-block;
+    align-items: center;
+    padding: 15rpx 30rpx;
+    margin-bottom: 20rpx;
+    
+    .body{
+      align-items: center;
+      display: flex;
+      margin-bottom: 5rpx;
+      .text{
+        color: var(--globalColor);
+        font-size: 37rpx;
+        font-weight: 600;
+        letter-spacing: 3rpx;
+        margin-right: 15rpx;
+      }
+      .pic{
+        height: 40rpx;
+        width: 40rpx;
+        margin-right: 15rpx;
+      }
+    }
+  }
+  .downIntro{
+    height: 100rpx;
+    display: flex;
+    justify-content: space-between;
+    // background: var(--girlColor);
+    border-bottom-left-radius: 20rpx;
+    border-bottom-right-radius: 20rpx;
+    .user{
+      transform: translateY(-20rpx);
+      text-align: center;
+      width: 120rpx;
+      height: 130rpx;
+      .photo{
+        height: 50rpx;
+        width: 50rpx;
+      }
+      .name{
+        height: 60rpx;
+        width: 120rpx;
+        font-size: 25rpx;
+        // letter-spacing: 1rpx;
+      }
+    }
+    .tags{
+      height: 100rpx;
+      width: 210rpx;
+      display: flex;
+      flex-wrap: wrap;
+      // flex-wrap: wrap;
+      .tag{
+        margin-left: 7rpx;
+        margin-top: 10rpx;
+        // width: 70rpx;
+        height: 32rpx;
+        background: var(--girlTagColor);
+        // padding: 5rpx;
+        font-size: 20rpx;
+      }
+    }
+  }
+}

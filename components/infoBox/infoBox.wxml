@@ -1,0 +1,49 @@
+<view class="box">
+  <!-- 信息 -->
+  <view class="intro">
+    <!-- 体型 -->
+    <view class="body">
+      <!-- <van-icon name="user-circle-o" /> -->
+      <image src="/static/images/intro.png" mode="" class="pic"/>
+      <view class="text" wx:for="{{3}}">{{item}}</view>
+    </view>
+    <!-- 学历 -->
+    <view class="body">
+      <image src="/static/images/degree.png" mode="" class="pic"/>
+      <view class="text">硕士</view>
+    </view>
+    <!-- 工作 -->
+    <view class="body">
+      <image src="/static/images/job.png" mode="" class="pic"/>
+      <view class="text">汽车行业</view>
+    </view>
+    <!-- 地点 -->
+    <view class="body">
+      <image src="/static/images/location.png" mode="" class="pic"/>
+      <view class="text">
+        <text>上海</text>
+        <text>嘉定</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 下部 -->
+  <view class="downIntro" style="background: {{gender}};">
+    <view class="user">
+      <!-- 头像 -->
+      <image src="/static/images/logo.png" mode="" class="photo"/>
+      <!-- 昵称 -->
+      <view class="name">
+        嘻嘻哈哈
+      </view>
+    </view>
+    
+    <!-- tag -->
+    <view class="tags">
+      <view class="tag" wx:for="{{4}}">
+        不领证
+      </view>
+    </view>
+
+  </view>
+</view>
