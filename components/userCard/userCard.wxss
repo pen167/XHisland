@@ -1,0 +1,92 @@
+@charset "UTF-8";
+.box {
+  display: flex;
+  flex-direction: column;
+  height: 360rpx;
+  width: 330rpx;
+  margin: 10rpx;
+}
+
+.box .top {
+  height: 250rpx;
+  display: inline-block;
+  align-items: center;
+  background-color: var(--whiteColor);
+  padding: 15rpx 30rpx;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+}
+
+.box .top .body {
+  align-items: center;
+  display: flex;
+  margin-bottom: 5rpx;
+}
+
+.box .top .body .text {
+  color: var(--text_theme);
+  font-size: 34rpx;
+  letter-spacing: 1rpx;
+  margin-right: 20rpx;
+}
+
+.box .top .body .pic {
+  height: 40rpx;
+  width: 40rpx;
+  margin-left: 8rpx;
+  margin-right: 20rpx;
+}
+
+.box .bottom {
+  height: 110rpx;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--boxColor);
+  border-bottom-left-radius: 20rpx;
+  border-bottom-right-radius: 20rpx;
+}
+
+.box .bottom .user {
+  transform: translateY(-25rpx);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 130rpx;
+  margin-left: 1rpx;
+}
+
+.box .bottom .user .photo {
+  height: 70rpx;
+  width: 70rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 8rpx;
+}
+
+.box .bottom .user .name {
+  height: 40rpx;
+  width: 120rpx;
+  font-size: 25rpx;
+}
+
+.box .bottom .tags {
+  height: 100rpx;
+  width: 230rpx;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10rpx;
+}
+
+.box .bottom .tags .tag {
+  margin-left: 12rpx;
+  margin-top: 2rpx;
+  width: 80rpx;
+  height: 36rpx;
+  text-align: center;
+  line-height: 36rpx;
+  /* 设置文本垂直居中*/
+  background: var(--girlTagColor);
+  font-size: 20rpx;
+  border-radius: 10rpx;
+}

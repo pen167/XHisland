@@ -2,18 +2,21 @@
   "pages":[
     "pages/index/index",
     "pages/customer_service/customer_service",
-    "pages/myself/myself"
+    "pages/myinfo/myinfo",
+    "pages/personal/personal"
   ],
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Weixin",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#CDCDCD",
+    "navigationBarTitleText": "Test",
+    "navigationBarTextStyle":"white"
   },
+
   "sitemapLocation": "sitemap.json",
+  
   "tabBar": {
-    "color": "#888888",
-    "selectedColor": "#888888",
+    "color": "#CDCDCD",
+    "selectedColor": "#515151",
     "list": [
       {
         "text": "首页",
@@ -29,15 +32,24 @@
       },
       {
         "text": "我的",
-        "pagePath": "pages/myself/myself",
-        "iconPath": "static/images/user.png",
-        "selectedIconPath": "static/images/user_selected.png"
+        "iconPath": "static/images/icons/my_light.png",
+        "selectedIconPath": "static/images/icons/my_dark.png",
+        "pagePath": "pages/myinfo/myinfo"
       }
     ]
   },
+  
+  "sitemapLocation": "sitemap.json",
+
   "usingComponents": {
     "van-loading": "@vant/weapp/loading/index",
+    "infoBox": "/components/infoBox/infoBox",
+    "userCard":"/components/userCard/userCard",
+    "island_header":"/components/island_header/island_header",
+    "vipcard":"/components/vipcard/vipcard",
+    "select_box":"/components/select_box/select_box",
+    "select_num":"/components/select_num/select_num",
     "van-icon": "@vant/weapp/icon/index",
-    "infoBox": "/components/infoBox/infoBox"
+    "van-field": "@vant/weapp/field/index"
   }
 }

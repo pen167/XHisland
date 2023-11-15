@@ -1,0 +1,67 @@
+.header {
+  height: 100rpx;
+  padding: 30rpx;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo {
+  margin-left: 20rpx;
+  height: 70rpx;
+}
+
+.header .logo .pic {
+  height: 100%;
+}
+
+.header .titles {
+  height: 120rpx;
+  width: 500rpx;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.header .titles .title {
+  text-align: center;
+  color: var(--themeColor);
+}
+
+.header .titles .title .image {
+  height: 50rpx;
+}
+
+.header .titles .title .image .pic {
+  height: 100%;
+}
+
+.header .titles .title .text {
+  font-size: 20rpx;
+  color: var(--themeColor);
+}
+
+.content .body {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20rpx;
+}
+
+.content .body .box {
+  margin-bottom: 30rpx;
+}
+
+.content .loadOut {
+  text-align: center;
+  padding: 30rpx 0;
+}
+
+.content .loadOut .noData {
+  font-size: 30rpx;
+  color: #888888;
+}
+
+page {
+  background-color: var(--bgColor);
+}

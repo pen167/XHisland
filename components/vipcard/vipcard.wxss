@@ -1,0 +1,13 @@
+.header {
+  height: 140rpx;
+  width: 280rpx;
+  background-color: var(--vipColor);
+  display: flex;
+  align-items: center;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+
+.header .vip {
+  display: grid;
+}

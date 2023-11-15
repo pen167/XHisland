@@ -17,4 +17,26 @@ page {
   --globalBgColor1: #e3e4e5;
   --globalBgColor2: #f6f7f8;
   --globalBgColor3: #ffffff;
+  --bgColor: #fafafa; /* 页面背景 */
+  --whiteColor: #FFFFFF; /* 白色 */
+  --vipColor:#CDCDCD; /* 会员背景 */
+  --text_theme: #000000; /* 文本、会员权益 */
+  --text_blue:#304E7C; /* 个人资料，tabbar选中*/
+  --text_dblue:#141414; /* 剩余次数 */
+  --dashColor: #D2D2D2; /* 虚线 */
+  --dashColor2: #ebc2c2;
+}
+
+.mask{
+  width: 100vw;
+  height: 100vh;
+  background: rgba(168, 116, 92, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 11;
+}
+
+body {
+  background-color: #9c9c51;
 }

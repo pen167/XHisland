@@ -5,7 +5,7 @@
     <view class="body">
       <!-- <van-icon name="user-circle-o" /> -->
       <image src="/static/images/intro.png" mode="" class="pic"/>
-      <view class="text" wx:for="{{3}}">{{item}}</view>
+      <view class="text" wx:for="{{3}}" wx:key="index">{{item}}</view>
     </view>
     <!-- 学历 -->
     <view class="body">
@@ -40,7 +40,7 @@
     
     <!-- tag -->
     <view class="tags">
-      <view class="tag" wx:for="{{4}}">
+      <view class="tag" wx:for="{{4}}" wx:key="index">
         不领证
       </view>
     </view>

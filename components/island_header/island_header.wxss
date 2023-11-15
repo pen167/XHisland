@@ -1,0 +1,28 @@
+.header {
+  height: 150rpx;
+  width: 390rpx;
+  display: flex;
+  align-items: center;
+}
+
+.header .portrait {
+  margin-right: 15rpx;
+  height: 130rpx;
+  width: 130rpx;
+}
+
+.header .portrait .img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.header .detail {
+  display: grid;
+}
+
+.header .detail .direct {
+  color: var(--text_blue);
+  font-size: 30rpx;
+}

@@ -1,0 +1,28 @@
+.header{
+  // border: 1px dashed var(--dashColor);
+  height: 150rpx;
+  width: 390rpx;
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  // padding: 20rpx;
+  .portrait{
+    // border: 1px dashed var(--dashColor);
+    margin-right: 15rpx;
+    height: 130rpx;
+    width: 130rpx;
+    .img{
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+  .detail{
+    display: grid;
+    .direct{
+      color: var(--text_blue);
+      font-size: 30rpx;
+    }
+  }
+}

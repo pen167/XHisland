@@ -1,0 +1,49 @@
+<view class="box">
+  <!-- 信息 -->
+  <view class="top">
+    <!-- 体型 -->
+    <view class="body">
+      <!-- <van-icon name="user-circle-o" /> -->
+      <image src="/static/images/intro.png" mode="heightFix" class="pic"/>
+      <view class="text" wx:for="{{3}}" wx:key="index" >{{item}} </view>
+    </view>
+    <!-- 学历 -->
+    <view class="body">
+      <image src="/static/images/degree.png" mode="heightFix" class="pic"/>
+      <view class="text">硕士</view>
+    </view>
+    <!-- 工作 -->
+    <view class="body">
+      <image src="/static/images/job.png" mode="heightFix" class="pic"/>
+      <view class="text">汽车行业</view>
+    </view>
+    <!-- 地点 -->
+    <view class="body">
+      <image src="/static/images/location.png" mode="heightFix" class="pic"/>
+      <view class="text">
+        <text>上海</text>
+        <text>嘉定</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 下部 -->
+  <view class="bottom" style="background: {{gender}};">
+    <view class="user">
+      <!-- 头像 -->
+      <image src="https://mp-1b5583f9-2ba4-48b5-a198-3bfa87403c5b.cdn.bspapp.com/cats/jiaojiao.jpeg" mode="aspectFill" class="photo"/>
+      <!-- 昵称 -->
+      <view class="name">
+        Name
+      </view>
+    </view>
+    
+    <!-- tag -->
+    <view class="tags">
+      <view class="tag" wx:for="{{4}}" wx:key="index">
+        不领证
+      </view>
+    </view>
+
+  </view>
+</view>

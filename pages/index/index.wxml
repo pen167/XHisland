@@ -3,6 +3,7 @@
     <image src="/static/images/logo.png" class="pic" mode="heightFix"/>
   </view>
   <view class="titles">
+  <!-- 筛选框 -->
     <view class="title">
       <picker bindchange="bindCertificateChange" value="{{certificateIndex}}" range="{{certificateArray}}">
         <view class="image">
@@ -66,9 +67,20 @@
   </view>
 </view>
 
+
+<!-- 卡片 -->
+
 <view class="content">
   <view class="body">
-    <view class="box" wx:for="{{4}}">
+    <view class="box" wx:for="{{4}}" wx:key="index">
+      <userCard></userCard>
+      <!-- <infoBox gender='boy'></infoBox> -->
+    </view>
+  </view>
+  <view style="text-align: center; color: var(--dashColor); margin-bottom: 300rpx;">
+  -------------------------------</view>
+  <view class="body">
+    <view class="box" wx:for="{{4}}" wx:key="index">
       <infoBox></infoBox>
       <!-- <infoBox gender='boy'></infoBox> -->
     </view>

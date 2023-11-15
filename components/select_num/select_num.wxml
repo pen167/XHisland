@@ -1,0 +1,11 @@
+<view class="container">
+  <text>{{select_name}}</text>
+  <picker mode="selector" range="{{numberArray}}" value="{{selectedNumberIndex}}" bindchange="bindNumberChange">
+    <view class="picker">
+      <!-- {{numberArray[selectedNumberIndex]}} -->
+      {{selectedNumberIndex === -1 ? defaultText : numberArray[selectedNumberIndex]}}
+    </view>
+  </picker>
+</view>
+
+<!-- <view class="separator"></view> -->

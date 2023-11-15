@@ -1,0 +1,15 @@
+.header{
+  // border: 1px dashed black;
+  height: 140rpx;
+  width: 280rpx;
+  background-color: var(--vipColor);
+  display: flex;
+  // justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  border-radius: 20rpx;
+
+  .vip{
+    display: grid;
+  }
+}

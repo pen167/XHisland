@@ -1,0 +1,12 @@
+<view class="container">
+  <text>{{select_name}}</text>
+  <picker bindchange="onPickerChange" value="{{selectedValue}}" range="{{select_array}}" >
+    <view class="picker">
+      {{selectedValue === 0 ? defaultText : select_array[selectedValue] }}
+    </view>
+  </picker>
+</view>
+<!-- <view class="separator"></view> -->
+
+
+

@@ -1,0 +1,24 @@
+.container {
+  // border: 1px dashed blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100rpx;
+  margin-left: 60rpx;
+  margin-right: 70rpx;
+  .picker {
+    // border: 1px solid red;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    text-align: right;
+  }
+}
+
+.separator{
+  height: 0.4px;
+  width: 310px;
+  background-color: var(--dashColor);
+  margin-left: 60rpx;
+  margin-right: 50rpx;
+}

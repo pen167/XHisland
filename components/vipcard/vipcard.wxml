@@ -1,0 +1,7 @@
+<!--components/vipcard/vipcard.wxml-->
+<view class="header">
+  <view class="vip">
+    <text>会员权益</text>
+    <text style="font-size: 24rpx; color: #636363;">暂时不知道写什么</text>
+  </view>
+</view>

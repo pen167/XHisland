@@ -1,0 +1,144 @@
+.header_box{
+  // border: 1px solid rgb(185, 94, 94);
+  color: var(--text_theme);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 15rpx;
+  margin-left: 15rpx;
+  margin-bottom: 20rpx;
+}
+
+// 剩余次数
+.box{
+  // border: 1px solid black;
+  color: var(--text_theme);
+  background-color: var(--whiteColor);
+  height: 135rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+  .inner{
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    .text{
+      // border: 1px solid red; 
+      height: 40rpx; 
+      margin-right: 1rpx;
+    }
+    .img{
+      // border: 1px solid red;
+      align-items: center;
+      // height: 40rpx;
+      width: 40rpx;
+    }
+  }
+}
+
+// 四个小图标
+.order_box{
+  // border: 1px dashed black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50rpx;
+  margin-left: 50rpx;
+  margin-bottom: 20rpx;
+  .icon_box{
+    // border: 1px dashed red;
+    height: 150rpx;
+    width: 150rpx;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .img{
+      // border: 1px solid red;
+      align-items: center;
+      width: 60rpx;
+      margin-bottom: 15rpx;
+    }
+    .text{
+      // border: 1px dashed red;
+      margin-top: 20rpx;
+      font-size: 24rpx;
+    }
+  }
+}
+
+// 邀请推广
+.invite{
+  // border: 1px dashed red;
+  position: relative;
+  width: 100%;
+  // height: 100%;
+  margin-right: 30rpx;
+  margin-left: 60rpx;
+  margin-bottom: 20rpx;
+  .background{
+    height: 200rpx;
+    // width: 300rpx;
+    object-position: center;
+    border-radius: 20rpx;
+  }
+  .overlay{
+    // border: 1px solid red;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 32rpx;
+    text-align: center;
+  }
+}
+
+// 设置信息
+.setting_box{
+  // border: 1px dashed red;
+  // height: 400rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+  .content{
+    display: flex;
+    height: 120rpx;
+    justify-content: space-between;
+    align-items: center;
+    .child{
+      display: flex;
+      height: 110rpx;
+      justify-content: space-between;
+      align-items: center;
+      .icon{
+        margin-left: 40rpx;
+        margin-right: 20rpx;
+      }
+    }
+    .arrow{
+      // border: 1px dashed red;
+      margin-right: 60rpx;
+    }
+  }
+  .separator{
+    height: 0.4px;
+    width: 200px;
+    background-color: var(--dashColor);
+    margin-left: 90rpx;
+    margin-right: 50rpx;
+  }
+}
+
+page {
+  background-color: var(--bgColor);
+}

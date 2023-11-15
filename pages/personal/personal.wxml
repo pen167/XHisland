@@ -1,0 +1,66 @@
+<!-- 头像 名称 -->
+<view class="portrait">
+  <navigator class="pic" url="/pages/index/index">
+    <image 
+    class="img"
+    src="https://mp-1b5583f9-2ba4-48b5-a198-3bfa87403c5b.cdn.bspapp.com/cats/jiaojiao.jpeg"
+    mode="aspectFill"/>
+  </navigator>
+
+  <navigator class="name" hover-class="text_hover" url="/pages/personal/personal" >Peng Cheng</navigator>
+</view>
+
+<!-- 基本信息 -->
+<!-- select: 性别、年龄、身高、出生年月、学历、行业、现居地、户籍地、情感状态、年收入、房车-->
+
+<select_box select_name="性别" select_array="{{select_gender}}" ></select_box>
+<view class="separator"></view>
+<select_num select_name="年龄" start="18" end="120" bind:change="handleNumberChange" />
+<view class="separator"></view>
+<select_num select_name="身高" start="150" end="200" bind:change="handleNumberChange" />
+<view class="separator"></view>
+<!-- 出生年月 -->
+<view class="birthday">
+  <text>出生日期</text>
+  <picker mode="date" value="{{date}}" start="{{startDate}}" end="{{endDate}}" bindchange="birthdayChange">
+    <view class="picker">
+      {{date}}
+    </view>
+  </picker>
+</view>
+<view class="separator"></view>
+
+<select_box select_name="学历" select_array="{{select_school}}"></select_box>
+<view class="separator"></view>
+
+<select_box select_name="情感状态" select_array="{{select_state}}"></select_box>
+<view class="separator"></view>
+
+<select_box select_name="房车" select_array="{{select_asset}}"></select_box>
+<view class="separator"></view>
+
+<select_box select_name="年收入" select_array="{{select_income}}"></select_box>
+<!-- <view class="separator"></view> -->
+
+<view style="height: 30rpx;"></view>
+<!-- 输入：微信号 -->
+<!-- 自我描述 -->
+<view class="input_box">
+  <view class="text">自我描述</view>
+  <textarea class="input" 
+  placeholder="请输入多行文本" >
+  </textarea>
+</view>
+
+<!-- 征婚信息 -->
+<view class="input_box">
+  <view class="text">期望</view>
+  <textarea class="input" 
+  placeholder="请输入多行文本" >
+  </textarea>
+</view>
+
+<!-- FOOTER -->
+<view class="footer">
+---- Island ----
+</view>

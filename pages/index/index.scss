@@ -41,12 +41,13 @@
 
 .content{
   .body{
-    padding: 50rpx 35rpx;
+    // border: 1px solid black;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20rpx;
     .box{
-      width: 330rpx;
+      // border: 1px solid red;
       margin-bottom: 30rpx;
     }
   }
@@ -58,4 +59,8 @@
       color: #888888;
     }
   }
+}
+
+page {
+  background-color: var(--bgColor);
 }

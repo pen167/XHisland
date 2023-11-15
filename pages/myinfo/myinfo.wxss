@@ -1,0 +1,137 @@
+.header_box {
+  color: var(--text_theme);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  margin-top: 20rpx;
+  margin-right: 15rpx;
+  margin-left: 15rpx;
+  margin-bottom: 20rpx;
+}
+
+.box {
+  color: var(--text_theme);
+  background-color: var(--whiteColor);
+  height: 135rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+}
+
+.box .inner {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.box .inner .text {
+  height: 40rpx;
+  margin-right: 1rpx;
+}
+
+.box .inner .img {
+  align-items: center;
+  width: 40rpx;
+}
+
+.order_box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50rpx;
+  margin-left: 50rpx;
+  margin-bottom: 20rpx;
+}
+
+.order_box .icon_box {
+  height: 150rpx;
+  width: 150rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.order_box .icon_box .img {
+  align-items: center;
+  width: 60rpx;
+  margin-bottom: 15rpx;
+}
+
+.order_box .icon_box .text {
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}
+
+.invite {
+  position: relative;
+  width: 100%;
+  margin-right: 30rpx;
+  margin-left: 60rpx;
+  margin-bottom: 20rpx;
+}
+
+.invite .background {
+  height: 200rpx;
+  object-position: center;
+  border-radius: 20rpx;
+}
+
+.invite .overlay {
+  position: absolute;
+  top: 50%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 32rpx;
+  text-align: center;
+}
+
+.setting_box {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+  background-color: #FFFFFF;
+  border-radius: 20rpx;
+}
+
+.setting_box .content {
+  display: flex;
+  height: 120rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting_box .content .child {
+  display: flex;
+  height: 110rpx;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.setting_box .content .child .icon {
+  margin-left: 40rpx;
+  margin-right: 20rpx;
+}
+
+.setting_box .content .arrow {
+  margin-right: 60rpx;
+}
+
+.setting_box .separator {
+  height: 0.4px;
+  width: 200px;
+  background-color: var(--dashColor);
+  margin-left: 90rpx;
+  margin-right: 50rpx;
+}
+
+page {
+  background-color: var(--bgColor);
+}
